@@ -14,7 +14,7 @@
   // $scope = scope service
   function Assignment1Controller ($scope) {
     $scope.checkLunchItms = function() {
-      //lunchItems = document.getElementById('lunchItems').value;
+      /* lunchItems = document.getElementById('lunchItems').value; */
 
       if ($scope.lunchItems == "") {
         $scope.result = "Please enter data first";
